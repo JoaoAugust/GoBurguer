@@ -11,6 +11,7 @@
         display: flex;
         flex-direction: row;
         margin: 5%;
+        margin-top: 3%;
         
     }
     #x-salada h2{
@@ -21,7 +22,7 @@
     }
     #x-salada img{
         display: flex;
-        width: 150px;
+        width: 143px;
         margin: 0%;
         flex-direction: column;
         
@@ -57,19 +58,19 @@
         }
         #x-bacon img{
             display: flex;
-        width: 150px;
-        margin: 0%;
-        flex-direction: column;
+            width: 143px;
+            margin: 1%;
+            flex-direction: column;
         }
         #x-bacon{
             background-color: rgba(0,0,0, 0.85);;
-            width: 20%;
-            height: 330px;
-            display: flex;
-            flex-direction: column;
-            margin:2.5%;
-       
+        width: 20%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+       margin: 2.5%;
         border-radius: 20%;
+
         }
        
        
@@ -95,7 +96,7 @@
     #x-egg img{
         display: flex;
     width: 150px;
-    margin: 6px;
+    margin: 2%;
     flex-direction: column;
     }
     #x-egg{
@@ -129,7 +130,7 @@
 }
 #x-tudo img{
     display: flex;
-    width: 150px;
+    width: 146px;
     margin: 0%;
     flex-direction: column;
     
@@ -165,9 +166,9 @@
     }
     #x-veg img{
         display: flex;
-    width: 140px;
-    margin: 0%;
-    flex-direction: column;
+        width: 132px;
+        margin: 1%;
+        flex-direction: column;
     }
     #x-veg{
         background-color: rgba(0,0,0, 0.85);;
@@ -203,7 +204,7 @@
 #amodadacasa img{
     display: flex;
 width: 180px;
-margin: 7%;
+margin: 6%;
 flex-direction: column;
 }
 #amodadacasa{
@@ -238,8 +239,8 @@ font-size: 23px;
 }
 #comdoritos img{
     display: flex;
-width: 180px;
-margin: 7%;
+width: 185px;
+margin: 5%;
 flex-direction: column;
 }
 #comdoritos{
@@ -264,17 +265,16 @@ border-radius: 20%;
     font-size: 23px;
     }
     #x-frango h2{
-        display: flex;
         text-align: center;
-        color: yellow;
-        flex-direction: column;
-        margin: 6%;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
     }
     #x-frango img{
         display: flex;
-    width: 150px;
-    margin: 5%;
-    flex-direction: column;
+        width: 140px;
+        margin: 2%;
+        flex-direction: column;
     }
     #x-frango{
         background-color: rgba(0,0,0, 0.85);;
@@ -299,13 +299,14 @@ border-radius: 20%;
         }
    body {
     background-image: url("pdp.jpg");
+    margin: 0%;
   }
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: black;
     border-radius: 150px ;
 
   }
@@ -317,13 +318,14 @@ border-radius: 20%;
   }
   
   li a {
-    background-color:black;
+    background-color:yellow;
   
     display: flex;
-    color: yellow;
+    color: black;
     text-align: center;
-    padding: 15px 69px;
+    padding: 15px 71px;
     text-decoration: none;
+    border-radius: 25px;
     
   }
        .dropdown {
